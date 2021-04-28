@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "black_jackregular";
+    src: url("../data/polices/blackjack-webfont.woff");
+    src: url("../data/polices/blackjack-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.zodiac{
+    background: url('../data/images/cosmos.jpeg');
+    background-size: cover;
+    color: aliceblue;
+    font-family: 'black_jackregular';    
+    font-size: 1.5rem;
+    width: 300px;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.zodiac h2{
+    font-size: 2rem;
+    padding: 1rem;
+}
+.zodiac img{
+    width: 100%;
+}
+.zodiac p {
+    padding: 1rem;
+}
